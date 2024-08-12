@@ -1,0 +1,149 @@
+.numbers{
+    background-color: #A82D49   ;
+    color: rgb(253, 253, 253) ;
+    padding: 5px 0px;
+    max-width:  100%;
+    text-align: center;
+    overflow: hidden;
+    height: auto ;
+}
+.numbers .rows {
+    margin: 10px 0px;
+}
+.numbers h2{
+ font-size:36px;
+ margin: 10px 0px;
+ color: white;
+ font-family: "Rubik", sans-serif;
+
+}
+.numbers h6{
+    text-transform: uppercase;
+    color: white ;
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 1px;
+}
+.pride{
+   margin-top: 60px;
+    max-width:  100%;
+    background-color: transparent;
+    overflow: hidden;
+    height: auto ;
+    padding: 25px 0px;
+}
+.pride img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin-left: 10rem;
+    height: 370px;
+}
+.pride h2 {
+font-size: 35px;
+font-family:"Rubik", sans-serif ;
+margin: 10px 0px;
+color :  #5c1021 ;
+width: 70%;
+margin-left: 6rem; 
+margin-top: 4rem;
+line-height: 50px;
+} 
+.pride p {
+ font-size: 18px; 
+ margin-left: 6rem;
+ font-family: "Tajawal";
+}
+.pride button{
+ background-color:  #A82D49  ; 
+ border: 1px solid   #A82D49  ; 
+ border-radius: 5px;
+ width: 140px; 
+ height: 40px;
+ margin-left: 6rem;
+ transition: transform 0.4s ease;
+ box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.1);
+}
+.pride button a { 
+    display: block;
+    color: white ;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none ;
+}
+ .pride button:hover {
+    transform: scale(1.1);
+ }
+
+ .ingredients{
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    text-align: left; 
+    overflow: hidden;
+    margin-right: 4rem;
+    margin-left: 4rem;
+ }
+ .ingredients h2{
+    font-size: 35px;
+    font-family:"Rubik", sans-serif ;
+    margin: 10px 0px;
+    color :  #5c1021 ;
+    width: 90%;
+    margin-left: 6rem; 
+    
+    line-height: 50px;
+ }
+ .ingredients p{
+    font-size: 18px; 
+    margin-left: 6rem;
+    font-family: "Tajawal";
+ } 
+ .ingredients ul{
+    padding: 0px;
+    
+ }
+ .ingredients ul li {
+    margin-left: 6rem; 
+    list-style-type:none;
+    font-family: "Tajawal";
+    margin-top: 10px;
+ }
+ .ingredients button{
+ background-color:  #A82D49  ; 
+ border: 1px solid   #A82D49  ; 
+ border-radius: 5px;
+ width: 140px; 
+ height: 40px;
+ margin-left: 6rem;
+ transition: transform 0.4s ease;
+ box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.1);
+ }
+ .ingredients button a { 
+    display: block;
+    color: white ;
+    font-family: "Rubik", sans-serif;
+    text-decoration: none ;
+}
+.ingredients button:hover {
+    transform: scale(1.1);
+ } 
+ .ingredients img{
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.icon-check {
+    color:#A82D49  ;
+  }
+   
+.paralex {
+    background: url('../../assets/photo.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    height:300px;
+    text-align: center;
+    padding: 30px 0px;
+   
+}
+  

@@ -1,0 +1,88 @@
+
+.container {
+    display: flex;
+    align-items: stretch;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    
+}
+.container .row {
+    margin: 25px 0px;
+} 
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.col-md-6 {
+    flex: 1;
+    padding: 10px;
+} 
+
+.text-section {
+    background-color: rgba(255, 255, 255, 0.8); 
+    text-align: left;
+    margin-left: 6rem;
+}
+
+.text-section h2 {
+    margin-top: 5rem;
+    font-size: 50px;
+    margin-bottom: 15px;
+    line-height: 60px;
+    color: rgba(90, 17, 39, 0.932)  ;
+    font-family: "Rubik", sans-serif;
+    width: 80%;
+}
+
+.text-section p {
+    font-size: 17px;
+    margin-bottom: 2rem;
+    font-family: "Rubik", sans-serif;
+    color: rgb(71, 70, 70) ;
+}
+
+.text-section button {
+  
+    padding: 10px 20px;
+    width: 145px;
+    height: 45px;
+    background-color:#A82D49   ;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.1);
+    border: none; 
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(255, 255, 255) ;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    border-radius: 3px;
+}
+
+.text-section button svg {
+    margin-left: 5px; /* مسافة صغيرة بين النص والأيقونة */
+}
+.text-section button:last-of-type{
+    background-color: rgb(253, 253, 253) ;
+    color: rgb(41, 41, 41) ;
+}
+.text-section button:hover{
+    transform: scale(1.1);
+}
+
+
+.image-section {
+    background: url('../../assets/header.png') ;
+    background-size: cover;
+    background-position: center;
+     margin-left:5rem;
+    width: 100%;
+    background-repeat: no-repeat;
+   
+}
