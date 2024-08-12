@@ -1,0 +1,39 @@
+.footer {
+    background-color: #9c2b3b; 
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-links {
+    margin-bottom: 15px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  .footer-social a:hover {
+    color: #f8c8d6; 
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  

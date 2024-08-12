@@ -136,7 +136,7 @@ line-height: 50px;
   }
    
 .paralex {
-    background: url('../../assets/photo.jpg');
+    /* background: url('../../assets/photo.jpg'); */
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -146,4 +146,116 @@ line-height: 50px;
     padding: 30px 0px;
    
 }
+.container {
+    display: block;
+}
+.section-title   {
+    font-size: 35px !important;
+    font-family: "Rubik", sans-serif;;
+    color: #5c1021;
+    
+}
+.section-description {
+    font-size: 17px  !important;
+    font-family: "Rubik", sans-serif;
+    color: #696969;
+    max-width: 80% !important; 
+    line-height: 1.5; 
+    text-align: center; 
+    margin: 0 auto; 
+}
+.food-offers {
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .section-description {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .food-row {
+    display: flex;
+    padding: 40px;
+  }
+  
+  .offer-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    width : 400px;
+    text-align: left;
+  }
+  
+  .offer-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .food-image {
+    align-items: center;
+    width: 90%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-left: 1rem;
+  }
+  
+  .offer-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #520f1d ;
+  }
+  
+  .offer-card p {
+    font-size:16px;
+    margin-bottom: 15px;
+    font-family:"Rubik", sans-serif; 
+    color: #5c5c5c ;
+  }
+  
+  .price {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .current-price {
+    color: #a3222f;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 10px;
+  }
+  .order-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #A82D49 ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    font-weight: 500;
+
+  }
+  
+  .order-btn:hover {
+    transform: scale(1.1);
+  }
   
